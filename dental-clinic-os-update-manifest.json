@@ -1,0 +1,31 @@
+{
+  "schema": "dental-clinic-os.update-manifest.v1",
+  "appId": "com.dentalclinicos.app",
+  "productName": "Dental Clinic OS",
+  "channel": "stable",
+  "version": "2.0.0",
+  "minSupportedVersion": "0.2.0",
+  "mandatory": false,
+  "publishedAt": "2026-06-30T17:00:00Z",
+  "release": {
+    "title": "Dental Clinic OS 2.0.0",
+    "notes": [
+      "Added fast reliable updater.",
+      "Added update check inside account dropdown.",
+      "Added prepared installer download cache.",
+      "Added safe installer verification and install flow."
+    ]
+  },
+  "installer": {
+    "fileName": "DentalClinicOS-Setup-2.0.exe",
+    "version": "2.0.0",
+    "type": "nsis",
+    "primaryUrl": "https://pub-f5cd99099ea74e9a8c8fb67ddc29d541.r2.dev/DentalClinicOS-Setup-2.0.exe",
+    "fallbackUrls": []
+  },
+  "messages": {
+    "updateAvailable": "Update 2.0.0 is available.",
+    "upToDate": "You are up to date.",
+    "serverUnavailable": "Update server is not reachable right now. The app is safe to use."
+  }
+}
