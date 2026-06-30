@@ -6,20 +6,24 @@
   "version": "0.2.0",
   "minSupportedVersion": "0.1.0",
   "mandatory": false,
-  "publishedAt": "2026-06-30T17:00:00Z",
+  "publishedAt": "2026-06-30T18:30:00Z",
   "release": {
     "title": "Dental Clinic OS 0.2.0",
     "notes": [
       "Added fast reliable updater.",
-      "Added update check inside account dropdown.",
-      "Added prepared installer download cache.",
-      "Added safe installer verification and install flow."
+      "Moved updater controls inside the account dropdown.",
+      "Added cached update metadata.",
+      "Added prepared installer cache.",
+      "Added safe verification and install flow.",
+      "Added Phase U4 parallel range download support for faster preparation."
     ]
   },
   "installer": {
     "fileName": "DentalClinicOS-Setup-0.2.0.exe",
     "version": "0.2.0",
     "type": "nsis",
+    "sizeBytes": 168636523,
+    "sha256": "1287BC6F9973DCDBFFFD309B8A5E04AA09F83EF65850E2605A4DDC2BC5B692F5",
     "primaryUrl": "https://pub-f5cd99099ea74e9a8c8fb67ddc29d541.r2.dev/DentalClinicOS-Setup-0.2.0.exe",
     "fallbackUrls": []
   },
